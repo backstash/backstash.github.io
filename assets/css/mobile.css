@@ -2,8 +2,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 html,
 body {
-	width: 100%;
-  height: 100%;
+	max-width: 320px;
+	height: 100%;
 }
 
 *,
@@ -28,8 +28,8 @@ body {
 
 body {
   font-family: "Product Sans", Arial, sans-serif;
-  font-size: 40px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 200;
 }
 
 body,
@@ -45,8 +45,9 @@ a {
 }
 
 img {
-	width: 300px!important;
-	height: 300px!important;
+	width: 150px!important;
+	height: 150px!important;
+	margin-top: 1em;
   margin-bottom: 1em;
 }
 
@@ -61,20 +62,20 @@ img {
 }
 
 #main .button {
-  height: 2em;
+  height: 1em;
 
   display: inline-block;
 
-  padding: 0 1em;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  padding: 0 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 	background-color: #FFFFFF;
-  border-radius: 1.5em;
+  border-radius: 0.75em;
 
   font-family: ProductSans-Regular;
-  font-size: 0.5em;
+  font-size: 0.25em;
   color: #4A4A4A;
-  line-height: 2em;
+  line-height: 1em;
 }
 
 #main .button:hover {
@@ -84,26 +85,27 @@ img {
 #social {
   width: 100%;
 
-  position: absolute;
-  bottom: 36px;
+  position: relative;
+	top: 3em;
+  bottom: 18px;
   left: 0;
 
   text-align: center;
 }
 
 #social .icon {
-  width: 50px;
-  height: 50px;
+  width: 25px;
+  height: 25px;
 
   display: inline-block;
 
-  margin: 0 2px;
+  margin: 0 1px;
 
-  border-radius: 50%;
+  border-radius: 25%;
 
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 18px;
+  background-size: 9px;
 }
 
 #social .icon:hover {
