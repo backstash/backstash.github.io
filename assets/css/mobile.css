@@ -33,7 +33,7 @@ body {
 }
 
 body,
-h2 {
+h1 {
   color: #FFFFFF;
   text-decoration: none;
   align: left!important;
@@ -45,8 +45,8 @@ a {
 }
 
 img {
-	width: 150px!important;
-	height: 150px!important;
+	width: 100px!important;
+	height: 100px!important;
 	margin-top: 1em;
   margin-bottom: 1em;
 }
@@ -62,7 +62,7 @@ img {
 }
 
 #main .button {
-  height: 1em;
+  height: 1.5em;
 
   display: inline-block;
 
@@ -73,9 +73,9 @@ img {
   border-radius: 0.75em;
 
   font-family: ProductSans-Regular;
-  font-size: 0.25em;
+  font-size: 0.5em;
   color: #4A4A4A;
-  line-height: 1em;
+  line-height: 1.5em;
 }
 
 #main .button:hover {
